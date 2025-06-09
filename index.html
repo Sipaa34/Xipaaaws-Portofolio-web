@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KenooNomercy Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="text-box">
+      <h1>Hello world</h1>
+      <p>Website ini dikembangkan oleh <strong>KenooNomercy</strong> dengan tujuan untuk memperkenalkan wanita cantik.</p>
+      <button class="toggle-btn" onclick="toggleDashboard()">About Pretty Girl</button>
+    </div>
+    <div class="image-box">
+      <img src="foto.jpg" alt="Wanita Cantik">
+    </div>
+  </div>
+  
+  <div class="dashboard" id="dashboard">
+    <h2>About Pretty Girl</h2>
+    <p>Hayiieeee iniii sipaaaa, diaaa orangnyaaa baikkk, ramahhh, sopann, imuttt dann jugaaa sedikitt ngeselin, tetapii sayaaa (kenoo) cintaa bangett samaa diaa</p>
+  </div>
+
+  <script>
+    function toggleDashboard() {
+      const dash = document.getElementById('dashboard');
+      dash.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
